@@ -54,3 +54,5 @@ nextButton.addEventListener('click', () => {
     uptade(1)
     ()
 })
+
+// testando comentario
