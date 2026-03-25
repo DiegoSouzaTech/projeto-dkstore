@@ -40,8 +40,39 @@ header nav ul {
     gap: 48px;
 }
 
-header nav li {
+header nav ul li {
     cursor: pointer;
     position: relative;
     padding: 5px 0;
 }
+
+header nav ul li::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #00f7ff;
+    transition: width 0.5s ease;
+}
+
+header nav ul li:hover ::after {
+    width: 100%;
+}
+
+.container {
+    height: 100vh;
+    position: relative;
+    background: linear-gradient(135deg #0f0f1e 0%, #1f1f3a 100%);
+    overflow: hidden;
+}
+
+.container::before {
+    content: '';
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: radial-gradient(circle. rgba(0, 247, 255, 0.2) 0%, rgba(15, 15, 30, 0) 70%);
+} 
