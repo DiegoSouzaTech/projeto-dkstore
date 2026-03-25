@@ -8,9 +8,7 @@ Uma vitrine digital moderna e imersiva, desenvolvida para oferecer uma experiên
 
 ## fotos ultilizadas
 
-🖼️ **[(https://ibb.co/twW8vr1P)]**
-**[(https://ibb.co/H5BWcWm)]**
-**[(https://ibb.co/jkpL1rwd)]**
+🖼️ **[(https://diego-souza21.imgbb.com/)]**
 
 ---
 
@@ -24,11 +22,9 @@ O projeto foi construído utilizando as tecnologias fundamentais da web moderna:
 
 ---
 
-## 📥 Como rodar o projeto localmente
+## Como rodar o projeto localmente
 
-Se você quiser explorar o código ou testar o site na sua máquina:
+Se você quiser explorar o código ou testar o site no seu PC:
 
-1. Clone este repositório:
-   ```bash
-   git clone [https://github.com/seu-usuario/PROJETO.DKSTORE.git](https://github.com/seu-usuario/PROJETO.DKSTORE.git)
-   ```
+Clone este repositório:
+git clone [https://github.com/DiegoSouzaTech/projeto-dkstore]
