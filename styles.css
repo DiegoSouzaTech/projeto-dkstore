@@ -471,3 +471,10 @@ header nav ul li:hover::after {
         font-size: 0.75rem;
     }
 }
+
+@media (max-width: 768px) {
+    .arrows {
+        width: 92%;
+        padding: 0 5px;
+    }
+}
