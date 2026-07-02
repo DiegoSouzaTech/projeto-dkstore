@@ -362,3 +362,112 @@ header nav ul li:hover::after {
 
 
  /* Testando Comentario */
+
+/* ===== RESPONSIVO MOBILE ===== */
+@media (max-width: 768px) {
+
+    header {
+        width: 100vw;
+        padding: 15px 20px;
+    }
+
+    .logo {
+        font-size: 1.4rem;
+    }
+
+    header nav ul {
+        gap: 20px;
+        font-size: 0.85rem;
+    }
+
+    .item {
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 60px;
+        text-align: center;
+    }
+
+    .list {
+        width: 90%;
+    }
+
+    .product-img {
+        width: 100%;
+        order: 1;
+    }
+
+    .product-img img {
+        max-width: 45%;
+    }
+
+    .content {
+        width: 100%;
+        order: 2;
+        padding-right: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .product-tag {
+        font-size: 0.8rem;
+    }
+
+    .product-name {
+        font-size: 2rem;
+    }
+
+    .description {
+        font-size: 0.9rem;
+        margin-bottom: 20px;
+        max-width: 90%;
+    }
+
+    .btn {
+        padding: 10px 14px;
+        font-size: 0.9rem;
+    }
+
+    .arrows {
+        width: 100%;
+        top: auto;
+        bottom: 100px;
+        transform: translate(-50%, 0);
+    }
+
+    .arrow-btn {
+        width: 38px;
+        height: 38px;
+    }
+
+    .indicators {
+        bottom: 20px;
+    }
+
+    .numbers {
+        font-size: 1.8rem;
+    }
+
+    .dot {
+        width: 25px;
+        height: 3px;
+    }
+
+    .circle {
+        display: none;
+    }
+}
+
+@media (max-width: 400px) {
+    .product-name {
+        font-size: 1.5rem;
+    }
+
+    .description {
+        font-size: 0.8rem;
+    }
+
+    header nav ul {
+        gap: 12px;
+        font-size: 0.75rem;
+    }
+}
